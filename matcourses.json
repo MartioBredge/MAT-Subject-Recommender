@@ -4,7 +4,7 @@
 	"code":"MAT102",
 	"school":"MAT",
 	"id":0,
-	"prerequisites":[],
+	"prerequisiteIds":[],
 	"year":1,
 	"semester":1,
 	"terms":"13"
@@ -14,7 +14,7 @@
 	"code":"MAT101",
 	"school":"MAT",
 	"id":1,
-	"prerequisites":[],
+	"prerequisiteIds":[],
 	"year":1,
 	"semester":1,
 	"terms":"13"
@@ -24,7 +24,7 @@
 	"code":"MAT106",
 	"school":"MAT",
 	"id":2,
-	"prerequisites":[],
+	"prerequisiteIds":[],
 	"year":1,
 	"semester":1,
 	"terms":"13"
@@ -34,7 +34,7 @@
 	"code":"MAT104",
 	"school":"MAT",
 	"id":2,
-	"prerequisites":[],
+	"prerequisiteIds":[],
 	"year":1,
 	"semester":1,
 	"terms":"13"
@@ -44,7 +44,7 @@
 	"code":"MAT103",
 	"school":"MAT",
 	"id":3,
-	"prerequisites":[0],
+	"prerequisiteIds":[0],
 	"year":1,
 	"semester":2,
 	"terms":"13"
@@ -54,7 +54,7 @@
 	"code":"MAT109",
 	"school":"MAT",
 	"id":4,
-	"prerequisites":[],
+	"prerequisiteIds":[],
 	"year":1,
 	"semester":2,
 	"terms":"13"
@@ -64,10 +64,11 @@
 	"code":"MAT105",
 	"school":"MAT",
 	"id":5,
-	"prerequisites":[],
+	"prerequisiteIds":[],
 	"year":1,
 	"semester":2,
 	"terms":"13"
 	}
 
 ]
+
