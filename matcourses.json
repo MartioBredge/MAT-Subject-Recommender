@@ -2,7 +2,7 @@
 	{
 	"name":"Calculus I",
 	"code":"MAT102",
-	"school":"MAT"
+	"school":"MAT",
 	"id":0,
 	"prerequisites":[],
 	"year":1,
@@ -69,4 +69,5 @@
 	"semester":2,
 	"terms":"13"
 	}
+
 ]
