@@ -1,0 +1,72 @@
+[
+	{
+	"name":"Calculus I",
+	"code":"MAT102",
+	"school":"MAT"
+	"id":0,
+	"prerequisites":[],
+	"year":1,
+	"semester":1,
+	"terms":"13"
+	},
+	{
+	"name":"Algebra and Analytic Geometry",
+	"code":"MAT101",
+	"school":"MAT",
+	"id":1,
+	"prerequisites":[],
+	"year":1,
+	"semester":1,
+	"terms":"13"
+	},
+	{
+	"name":"Discrete Mathematics",
+	"code":"MAT106",
+	"school":"MAT",
+	"id":2,
+	"prerequisites":[],
+	"year":1,
+	"semester":1,
+	"terms":"13"
+	},
+	{
+	"name":"Linear Algebra I",
+	"code":"MAT104",
+	"school":"MAT",
+	"id":2,
+	"prerequisites":[],
+	"year":1,
+	"semester":1,
+	"terms":"13"
+	},
+	{
+	"name":"Calculus II",
+	"code":"MAT103",
+	"school":"MAT",
+	"id":3,
+	"prerequisites":[0],
+	"year":1,
+	"semester":2,
+	"terms":"13"
+	},
+	{
+	"name":"Ordinary Differential Equations",
+	"code":"MAT109",
+	"school":"MAT",
+	"id":4,
+	"prerequisites":[],
+	"year":1,
+	"semester":2,
+	"terms":"13"
+	},
+	{
+	"name":"Linear Algebra I",
+	"code":"MAT105",
+	"school":"MAT",
+	"id":5,
+	"prerequisites":[],
+	"year":1,
+	"semester":2,
+	"terms":"13"
+	}
+]
