@@ -21,3 +21,10 @@ class Subject {
         Subject.allSubjects.push(this);
     }
 }
+
+const courseInput=document.getElementById("courseInput");
+const courseOutput=document.getElementById("courseOutput");
+courseOutput.onchange=function(event) {
+  let courseName=courseInput.value;
+  console.log(courseName);
+}
