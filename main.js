@@ -1,3 +1,17 @@
+class Subject {
+    static allSubjects=[];
+    constructor(jsonData) {
+        this.data=jsonData;
+        let keys=Object.keys(this.data);
+        for(let i=0;i<keys.length;i++)
+            this[keys[i]]=this.data[keys[i]];
+        Subject.allSubjects.push(this);
+    }
+  toString() {
+    return "Course Name: "+this.name+"\n"+"Course Code: "+this.code;
+  }
+}
+
 async function loadLocalJson() {
   try {
     const response = await fetch('matcourses.json'); // Path relative to your HTML file
@@ -10,20 +24,7 @@ async function loadLocalJson() {
 }
 
 loadLocalJson();
-
-class Subject {
-    static allSubjects=[];
-    constructor(jsonData) {
-        this.data=JSON.parse(jsonData);
-        let keys=Object.keys(this.data);
-        for(let i=0;i<keys.length;i++)
-            this[keys[i]]=this.data[keys[i]];
-        Subject.allSubjects.push(this);
-    }
-  toString() {
-    return "Course Name: "+this.name+"\n"+"Course Code: "+this.code;
-  }
-}
+for(let i=0;i<data.length;i++) new Subject(data[i]);
 
 const courseInput=document.getElementById("courseInput");
 const courseOutput=document.getElementById("courseOutput");
