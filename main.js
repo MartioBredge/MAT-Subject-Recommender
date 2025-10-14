@@ -24,7 +24,7 @@ class Subject {
 
 const courseInput=document.getElementById("courseInput");
 const courseOutput=document.getElementById("courseOutput");
-courseInput.onchange=function(event) {
+courseInput.oninput=function(event) {
   let courseName=courseInput.value;
   console.log(courseName);
   let matches=[];
