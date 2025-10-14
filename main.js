@@ -17,6 +17,7 @@ async function loadLocalJson() {
     const response = await fetch('matcourses.json'); // Path relative to your HTML file
     const data = await response.json();
     console.log(data);
+    for(let i=0;i<data.length;i++) new Subject(data[i]);
     // Process your JSON data here
   } catch (error) {
     console.error('Error fetching local JSON:', error);
@@ -24,7 +25,7 @@ async function loadLocalJson() {
 }
 
 loadLocalJson();
-for(let i=0;i<data.length;i++) new Subject(data[i]);
+
 
 const courseInput=document.getElementById("courseInput");
 const courseOutput=document.getElementById("courseOutput");
