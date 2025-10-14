@@ -34,11 +34,8 @@ courseInput.oninput=function(event) {
   let matches=[];
   for(let i=0;i<Subject.allSubjects.length;i++) {
     let subj=Subject.allSubjects[i];
-    console.log(subj);
-    console.log(subj["name"].includes(courseName));
     if(!subj["name"].includes(courseName)) continue;
     matches.push(subj);
-    
   }
   courseOutput.innerHTML="";
   for(let i=0;i<matches.length;i++) {
