@@ -75,7 +75,338 @@
 	"semester":2,
 	"terms":"13",
 	"credit":4
+	},
+	{
+	"name":"Probability Theory",
+	"code":"MAT107",
+	"school":"MAT",
+	"id":7,
+	"prerequisites":[],
+	"year":1,
+	"semester":2,
+	"terms":"13",
+	"credit":4
+	},
+	{
+	"name":"Mathematical Analysis I",
+	"code":"MAT201",
+	"school":"MAT",
+	"id":8,
+	"prerequisites":[],
+	"year":2,
+	"semester":1,
+	"terms":"13",
+	"credit":4
+	},
+	{
+	"name":"Abstract Algebra I",
+	"code":"MAT211",
+	"school":"MAT",
+	"id":9,
+	"prerequisites":[],
+	"year":2,
+	"semester":1,
+	"terms":"13",
+	"credit":4
+	},,
+	{
+	"name":"Statistics",
+	"code":"MAT203",
+	"school":"MAT",
+	"id":10,
+	"prerequisites":[],
+	"year":2,
+	"semester":1,
+	"terms":"13",
+	"credit":4
+	},
+	{
+	"name":"Mathematical Analysis II",
+	"code":"MAT202",
+	"school":"MAT",
+	"id":11,
+	"prerequisites":[8],
+	"year":2,
+	"semester":2,
+	"terms":"13",
+	"credit":4
+	},
+	{
+	"name":"Complex Analysis I",
+	"code":"MAT206",
+	"school":"MAT",
+	"id":12,
+	"prerequisites":[],
+	"year":2,
+	"semester":2,
+	"terms":"13",
+	"credit":4
+	},
+	{
+	"name":"Mathematical Theory of Games",
+	"code":"G0180",
+	"school":"G",
+	"id":13,
+	"prerequisites":[],
+	"year":0,
+	"semester":0,
+	"terms":"2",
+	"credit":3
+	},
+	{
+	"name":"Elementary Number Theory",
+	"code":"G0111",
+	"school":"G",
+	"id":14,
+	"prerequisites":[],
+	"year":0,
+	"semester":0,
+	"terms":"2",
+	"credit":3
+	},
+	{
+	"name":"Partial Differential Equations",
+	"code":"MAT301",
+	"school":"MAT",
+	"id":15,
+	"prerequisites":[],
+	"year":2,
+	"semester":1,
+	"terms":"3",
+	"credit":4
+	},
+	{
+	"name":"Dynamical Systems",
+	"code":"MAT312",
+	"school":"MAT",
+	"id":16,
+	"prerequisites":[],
+	"year":2,
+	"semester":1,
+	"terms":"1",
+	"credit":4
+	},
+	{
+	"name":"Combinatorics",
+	"code":"MAT209",
+	"school":"MAT",
+	"id":17,
+	"prerequisites":[],
+	"year":2,
+	"semester":1,
+	"terms":"1",
+	"credit":4
+	},
+	{
+	"name":"Financial Mathematics I",
+	"code":"MAT210",
+	"school":"MAT",
+	"id":18,
+	"prerequisites":[],
+	"year":2,
+	"semester":1,
+	"terms":"1",
+	"credit":4
+	},
+	{
+	"name":"Advanced Linear Algebra",
+	"code":"MAT207",
+	"school":"MAT",
+	"id":19,
+	"prerequisites":[],
+	"year":2,
+	"semester":1,
+	"terms":"3",
+	"credit":4
+	},
+	{
+	"name":"Numerical Analysis",
+	"code":"MAT302",
+	"school":"MAT",
+	"id":20,
+	"prerequisites":[],
+	"year":2,
+	"semester":2,
+	"terms":"1",
+	"credit":4
+	},
+	{
+	"name":"General Topology",
+	"code":"MAT208",
+	"school":"MAT",
+	"id":21,
+	"prerequisites":[],
+	"year":2,
+	"semester":2,
+	"terms":"1",
+	"credit":4
+	},
+	{
+	"name":"Classical Algebraic Geometry",
+	"code":"MAT328",
+	"school":"MAT",
+	"id":22,
+	"prerequisites":[9],
+	"year":2,
+	"semester":2,
+	"terms":"1",
+	"credit":4
+	},
+	{
+	"name":"Abstract Algebra II",
+	"code":"MAT205",
+	"school":"MAT",
+	"id":23,
+	"prerequisites":[9],
+	"year":2,
+	"semester":2,
+	"terms":"1",
+	"credit":4
+	},
+	{
+	"name":"Algebraic Number Theory",
+	"code":"MAT311",
+	"school":"MAT",
+	"id":24,
+	"prerequisites":[9],
+	"year":2,
+	"semester":2,
+	"terms":"1",
+	"credit":4
+	},
+	{
+	"name":"Bayesian Statistics",
+	"code":"MAT323",
+	"school":"MAT",
+	"id":25,
+	"prerequisites":[10],
+	"year":2,
+	"semester":2,
+	"terms":"3",
+	"credit":3
+	},
+	{
+	"name":"Regression Analysis",
+	"code":"MAT314",
+	"school":"MAT",
+	"id":26,
+	"prerequisites":[],
+	"year":2,
+	"semester":2,
+	"terms":"13",
+	"credit":4
+	},
+	{
+	"name":"Time Series",
+	"code":"MAT315",
+	"school":"MAT",
+	"id":27,
+	"prerequisites":[],
+	"year":2,
+	"semester":2,
+	"terms":"13",
+	"credit":4
+	},
+	{
+	"name":"Stochastic Processes",
+	"code":"MAT313",
+	"school":"MAT",
+	"id":28,
+	"prerequisites":[],
+	"year":2,
+	"semester":2,
+	"terms":"3",
+	"credit":4
+	},
+	{
+	"name":"Financial Mathematics II",
+	"code":"MAT317",
+	"school":"MAT",
+	"id":29,
+	"prerequisites":[],
+	"year":2,
+	"semester":2,
+	"terms":"3",
+	"credit":4
+	},
+	{
+	"name":"Differential Geometry of Curves and Surfaces",
+	"code":"MAT303",
+	"school":"MAT",
+	"id":30,
+	"prerequisites":[],
+	"year":3,
+	"semester":1,
+	"terms":"1",
+	"credit":4
+	},
+	{
+	"name":"Differential Manifolds",
+	"code":"MAT306",
+	"school":"MAT",
+	"id":31,
+	"prerequisites":[],
+	"year":3,
+	"semester":1,
+	"terms":"3",
+	"credit":4
+	},
+	{
+	"name":"Real Analysis I",
+	"code":"MAT304",
+	"school":"MAT",
+	"id":32,
+	"prerequisites":[],
+	"year":3,
+	"semester":1,
+	"terms":"3",
+	"credit":4
+	},
+	{
+	"name":"Analytic Number Theory",
+	"code":"MAT310",
+	"school":"MAT",
+	"id":33,
+	"prerequisites":[],
+	"year":3,
+	"semester":1,
+	"terms":"3",
+	"credit":4
+	},
+	{
+	"name":"Algebraic Topology",
+	"code":"MAT326",
+	"school":"MAT",
+	"id":34,
+	"prerequisites":[],
+	"year":3,
+	"semester":1,
+	"terms":"3",
+	"credit":4
+	},
+	{
+	"name":"Multivariate Statistical Analysis",
+	"code":"MAT324",
+	"school":"MAT",
+	"id":35,
+	"prerequisites":[],
+	"year":3,
+	"semester":1,
+	"terms":"1",
+	"credit":3
+	},
+	{
+	"name":"Financial Mathematics II",
+	"code":"MAT318",
+	"school":"MAT",
+	"id":36,
+	"prerequisites":[],
+	"year":3,
+	"semester":1,
+	"terms":"1",
+	"credit":4
 	}
 ]
+
 
 
