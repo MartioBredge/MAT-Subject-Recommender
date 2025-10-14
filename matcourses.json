@@ -108,7 +108,7 @@
 	"semester":1,
 	"terms":"13",
 	"credit":4
-	},,
+	},
 	{
 	"name":"Statistics",
 	"code":"MAT203",
@@ -407,6 +407,7 @@
 	"credit":4
 	}
 ]
+
 
 
 
