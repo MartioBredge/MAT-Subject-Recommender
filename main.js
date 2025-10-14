@@ -27,4 +27,8 @@ const courseOutput=document.getElementById("courseOutput");
 courseInput.onchange=function(event) {
   let courseName=courseInput.value;
   console.log(courseName);
+  let matches=[];
+  for(let i=0;i<Subject.allSubjects.length;i++) {
+    //courseName
+  }
 }
