@@ -24,7 +24,7 @@ class Subject {
 
 const courseInput=document.getElementById("courseInput");
 const courseOutput=document.getElementById("courseOutput");
-courseOutput.onchange=function(event) {
+courseInput.onchange=function(event) {
   let courseName=courseInput.value;
   console.log(courseName);
 }
