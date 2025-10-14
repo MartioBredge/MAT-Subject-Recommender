@@ -75,7 +75,7 @@
 	"semester":2,
 	"terms":"13",
 	"credit":4
-	},,
+	},
 	{
 	"name":"Probability Theory",
 	"code":"MAT107",
@@ -407,3 +407,4 @@
 	"credit":4
 	}
 ]
+
