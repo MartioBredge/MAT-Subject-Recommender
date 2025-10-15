@@ -38,7 +38,7 @@ courseInput.oninput=function(event) {
     if(!subj["name"].toLowerCase().includes(courseName.toLowerCase())) continue;
     matches.push(subj);
   }
-  matches.sort(function(a,b) {return a["name"].indexOf(courseName)-b["name"].indexOf(courseName);});
+  //matches.sort(function(a,b) {return a["name"].indexOf(courseName)-b["name"].indexOf(courseName)});
   courseOutput.innerHTML="";
   for(let i=0;i<matches.length;i++) {
     courseOutput.innerHTML+=matches[i].toString().replaceAll("\n","<br>")+"<br><br>";
