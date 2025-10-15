@@ -29,7 +29,7 @@ loadLocalJson();
 
 const courseInput=document.getElementById("courseInput");
 const courseOutput=document.getElementById("courseOutput");
-courseInput.onkeyup=function(event) {
+courseInput.onpropertychange=function(event) {
   let courseName=courseInput.value;
   if(courseName.length<1) return false;
   let matches=[];
