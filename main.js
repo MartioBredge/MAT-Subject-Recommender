@@ -31,14 +31,16 @@ const courseInput=document.getElementById("courseInput");
 const courseOutput=document.getElementById("courseOutput");
 courseInput.oninput=function(event) {
   let courseName=courseInput.value;
+  if(courseName.length<1) return false;
   let matches=[];
   for(let i=0;i<Subject.allSubjects.length;i++) {
     let subj=Subject.allSubjects[i];
     if(!subj["name"].includes(courseName)) continue;
     matches.push(subj);
   }
+  matches.sort(function(a,b) {return a["name"].indexOf(courseName)-b["name"].indexOf(courseName);});
   courseOutput.innerHTML="";
   for(let i=0;i<matches.length;i++) {
-    courseOutput.innerHTML+=matches[i].toString()+"\n";
+    courseOutput.innerHTML+=matches[i].toString().replaceAll("\n","<br>")+"<br>";
   }
 }
