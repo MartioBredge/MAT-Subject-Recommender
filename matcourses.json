@@ -164,7 +164,8 @@
 	"year":0,
 	"semester":0,
 	"terms":"2",
-	"credit":3
+	"credit":3,
+	"field":"Finance"
 	},
 	{
 	"name":"Elementary Number Theory",
@@ -175,7 +176,8 @@
 	"year":0,
 	"semester":0,
 	"terms":"2",
-	"credit":3
+	"credit":3,
+	"field":"Pure Math"
 	},
 	{
 	"name":"Partial Differential Equations",
@@ -442,6 +444,7 @@
 	"field":"Finance"
 	}
 ]
+
 
 
 
