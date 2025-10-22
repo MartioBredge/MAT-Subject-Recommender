@@ -1,0 +1,24 @@
+.popup-overlay {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: auto; /* Center the popup content */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Adjust width as needed */
+  max-width: 500px; /* Max width for larger screens */
+  border-radius: 8px;
+  text-align: center;
+}
