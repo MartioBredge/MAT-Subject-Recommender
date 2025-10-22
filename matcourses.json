@@ -331,7 +331,7 @@
 	"semester":2,
 	"terms":"13",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Statistics"
 	},
 	{
 	"name":"Stochastic Processes",
@@ -343,7 +343,7 @@
 	"semester":2,
 	"terms":"3",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Statistics"
 	},
 	{
 	"name":"Financial Mathematics II",
@@ -427,7 +427,7 @@
 	"semester":1,
 	"terms":"1",
 	"credit":3,
-	"field":"Pure Math"
+	"field":"Statistics"
 	},
 	{
 	"name":"Financial Mathematics II",
@@ -442,6 +442,7 @@
 	"field":"Finance"
 	}
 ]
+
 
 
 
