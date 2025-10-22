@@ -44,3 +44,27 @@ courseInput.oninput=function(event) {
     courseOutput.innerHTML+=matches[i].toString().replaceAll("\n","<br>")+"<br><br>";
   }
 }
+
+
+
+
+const openPopupBtn = document.getElementById('openPopupBtn');
+const closePopupBtn = document.getElementById('closePopupBtn');
+const myPopup = document.getElementById('myPopup');
+
+// Open the popup when the button is clicked
+openPopupBtn.addEventListener('click', () => {
+  myPopup.style.display = 'flex'; // Use flex to center content
+});
+
+// Close the popup when the close button is clicked
+closePopupBtn.addEventListener('click', () => {
+  myPopup.style.display = 'none';
+});
+
+// Close the popup if the user clicks outside of the content
+window.addEventListener('click', (event) => {
+  if (event.target === myPopup) {
+    myPopup.style.display = 'none';
+  }
+});
