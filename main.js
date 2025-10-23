@@ -72,5 +72,11 @@ window.addEventListener('click', (event) => {
 const popupCourseName=document.getElementById("popup_courseName")
 function updatePopup(subject) {
     popupCourseName.innerHTML=subject["name"]+" ("+subject["code"]+")";
-    
+}
+function createSubjectBox(subject) {
+    let mainDiv=document.createElementById("div");
+    let courseName=document.createElementById("h5");
+    courseName.innerHTML=subject["name"]+" ("+subject["code"]+")";
+    mainDiv.appendChild(courseName);
+    return mainDiv;
 }
