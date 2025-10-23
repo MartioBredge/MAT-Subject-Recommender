@@ -68,3 +68,9 @@ window.addEventListener('click', (event) => {
     myPopup.style.display = 'none';
   }
 });
+
+const popupCourseName=document.getElementById("popup_courseName")
+function updatePopup(subject) {
+    popupCourseName.innerHTML=subject["name"]+" ("+subject["code"]+")";
+    
+}
