@@ -1,3 +1,8 @@
+.infoInputDiv {
+  display:grid;
+  grid-columns:20% 80%;
+
+}
 .popup-overlay {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
