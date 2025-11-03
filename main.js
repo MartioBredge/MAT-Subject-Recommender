@@ -80,5 +80,6 @@ function createSubjectBox(subject) {
     return mainDiv;
 }
 function doOtherStuff() {
-    document.body.appendChild(createSubjectBox(Subject.allSubjects[0]));
+    let a=createSubjectBox(Subject.allSubjects[0]);
+    document.body.appendChild(a);
 }
