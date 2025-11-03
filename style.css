@@ -18,7 +18,6 @@
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Adjust width as needed */
-  max-width: 500px; /* Max width for larger screens */
   border-radius: 8px;
   text-align: center;
 }
