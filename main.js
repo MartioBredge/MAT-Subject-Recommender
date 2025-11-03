@@ -18,7 +18,7 @@ async function loadLocalJson() {
     const data = await response.json();
     console.log(data);
     for(let i=0;i<data.length;i++) new Subject(data[i]);
-    // Process your JSON data here
+    doOtherStuff();
   } catch (error) {
     console.error('Error fetching local JSON:', error);
   }
@@ -79,4 +79,6 @@ function createSubjectBox(subject) {
     mainDiv.onclick=function() {openPopup(subject["name"]);}
     return mainDiv;
 }
-document.body.appendChild(createSubjectBox(Subject.allSubjects[0]));
+function doOtherStuff() {
+    document.body.appendChild(createSubjectBox(Subject.allSubjects[0]));
+}
