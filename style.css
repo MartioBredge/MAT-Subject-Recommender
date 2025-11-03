@@ -1,8 +1,14 @@
 #infoInputDiv {
-  display:grid;
-  grid-template-columns:20% 80%;
+  display:flex;
+  flex-direction:column;
   background-color:#FF0000;
   width:100%;
+}
+.inputDiv {
+  display:grid;
+  background-color:#FFFF00;
+  width:100%;
+  grid-template-columns:20% 80%;
 }
 .popup-overlay {
   display: none; /* Hidden by default */
