@@ -1,4 +1,4 @@
-.infoInputDiv {
+#infoInputDiv {
   display:grid;
   grid-template-columns:20% 80%;
   background-color:red;
