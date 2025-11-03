@@ -69,8 +69,8 @@ function updatePopup(subject) {
     popupCourseName.innerHTML=subject["name"]+" ("+subject["code"]+")";
 }
 function createSubjectBox(subject) {
-    let mainDiv=document.createElementById("div");
-    let courseName=document.createElementById("h5");
+    let mainDiv=document.createElement("div");
+    let courseName=document.createElement("h5");
     courseName.innerHTML=subject["name"]+" ("+subject["code"]+")";
     mainDiv.appendChild(courseName);
     mainDiv.style.display="flex";
