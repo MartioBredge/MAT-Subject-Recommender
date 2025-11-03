@@ -82,4 +82,5 @@ function createSubjectBox(subject) {
 function doOtherStuff() {
     let a=createSubjectBox(Subject.allSubjects[0]);
     document.body.appendChild(a);
+    console.log("FUCKING HELL!");
 }
