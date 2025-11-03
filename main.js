@@ -51,6 +51,7 @@ courseInput.oninput=function(event) {
 const myPopup = document.getElementById('myPopup');
 
 function openPopup(subject) {
+    updatePopup(subject);
     myPopup.style.display='flex';
 }
 function closePopup() {
