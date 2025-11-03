@@ -56,13 +56,16 @@ function openPopup(subject) {
 function closePopup() {
     myPopup.style.display='none';
 }
-
 // Close the popup if the user clicks outside of the content
 window.addEventListener('click', (event) => {
   if (event.target === myPopup) {
     closePopup();
   }
 });
+
+
+// Close the popup if the user clicks outside of the content
+document.getElementById("closePopupBtn").addEventListener('click', (event) => {closePopup();});
 
 const popupCourseName=document.getElementById("popup_courseName")
 function updatePopup(subject) {
