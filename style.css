@@ -9,6 +9,7 @@
   background-color:#FFFF00;
   width:100%;
   grid-template-columns:20% 80%;
+  max-height:50px;
 }
 .popup-overlay {
   display: none; /* Hidden by default */
