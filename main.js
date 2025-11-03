@@ -81,5 +81,5 @@ function createSubjectBox(subject) {
 }
 function doOtherStuff() {
     console.log(Subject.allSubjects[0]);
-    document.body.appendChild(createSubjectBox(Subject.allSubjects[0]));
+    //document.body.appendChild(createSubjectBox(Subject.allSubjects[0]));
 }
