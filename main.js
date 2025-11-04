@@ -80,7 +80,7 @@ function createSubjectBox(subject) {
     mainDiv.style.display="flex";
     mainDiv.style.justifyContent="center";
     mainDiv.style.alignContent="center";
-    mainDiv.onclick=function() {openPopup(subject["name"]);}
+    mainDiv.onclick=function() {openPopup(subject);}
     return mainDiv;
 }
 function doOtherStuff() {
