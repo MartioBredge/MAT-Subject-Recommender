@@ -38,7 +38,7 @@
   display:flex;
   justify-content:center;
   align-content:center;
-  border:1px #000000;
+  border:1px #000000 solid;
   background-color:#DDDDDD;
 }
 
@@ -46,4 +46,16 @@
   width:auto;
   padding:10px;
   margin:10px;
+}
+.semRecommLabel {
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  border:1px #000000 solid;
+}
+#recommendationDiv {
+  width:auto;
+  padding:10px;
+  margin:10px;
+  border:1px #000000 solid;
 }
