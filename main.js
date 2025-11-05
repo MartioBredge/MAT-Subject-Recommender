@@ -77,9 +77,7 @@ function createSubjectBox(subject) {
     let courseName=document.createElement("h5");
     courseName.innerHTML=subject["name"]+" ("+subject["code"]+")";
     mainDiv.appendChild(courseName);
-    mainDiv.style.display="flex";
-    mainDiv.style.justifyContent="center";
-    mainDiv.style.alignContent="center";
+    mainDiv.className="subjectButton";
     mainDiv.onclick=function() {openPopup(subject);}
     return mainDiv;
 }
