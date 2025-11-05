@@ -1,6 +1,24 @@
 let currSemPicker=document.getElementById("currSemPicker");
 let intakeSemPicker=document.getElementById("intakeSemPicker");
-let 
+let currSemRange=[2024,2026];
+let intakeSemRange=[2020,2026];
+let months=["02","04","09"];
+for(let i=currSemRange[0];i<=currSemRange[1];i++) {
+    for(let j=0;j<3;j++) {
+        let newOption=document.createElement("option");
+        newOption.value=i+"/"+months[j];
+        newOption.innerHTML=i+"/"+months[j];
+        currSemPicker.appendChild(newOption);
+    }
+}
+for(let i=intakeSemRange[0];i<=intakeSemRange[1];i++) {
+    for(let j=0;j<3;j++) {
+        let newOption=document.createElement("option");
+        newOption.value=i+"/"+months[j];
+        newOption.innerHTML=i+"/"+months[j];
+        currSemPicker.appendChild(newOption);
+    }
+}
 class Subject {
     static allSubjects=[];
     constructor(jsonData) {
