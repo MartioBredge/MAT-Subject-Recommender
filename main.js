@@ -1,3 +1,6 @@
+let currSemPicker=document.getElementById("currSemPicker");
+let intakeSemPicker=document.getElementById("intakeSemPicker");
+let 
 class Subject {
     static allSubjects=[];
     constructor(jsonData) {
