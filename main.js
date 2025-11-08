@@ -22,11 +22,8 @@ function createSubjectBox(subject) {
     mainDiv.onclick=function() {openPopup(subject);}
     return mainDiv;
 }
-function doOtherStuff() {
-    //let a=createSubjectBox(Subject.allSubjects[0]);
-    //document.body.appendChild(a);
-    
-
+function updateRecommendations() {
+    let offset=intakeSemPickerMonth.selectedIndex;
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
@@ -39,6 +36,15 @@ function doOtherStuff() {
             ulist.appendChild(p);
         }
     }
+}
+function doOtherStuff() {
+    //let a=createSubjectBox(Subject.allSubjects[0]);
+    //document.body.appendChild(a);
+    updateRecommendations();
+}
+intakeSemPickerMonth.onchange=function(event) {
+    updateRecommendations();
+    console.log("AFK");
 }
 
 
