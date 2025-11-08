@@ -1,24 +1,19 @@
-let currSemPicker=document.getElementById("currSemPicker");
-let intakeSemPicker=document.getElementById("intakeSemPicker");
-let currSemRange=[2024,2026];
-let intakeSemRange=[2020,2026];
-let months=["02","04","09"];
-for(let i=currSemRange[0];i<=currSemRange[1];i++) {
-    for(let j=0;j<3;j++) {
-        let newOption=document.createElement("option");
-        newOption.value=i+"/"+months[j];
-        newOption.innerHTML=i+"/"+months[j];
-        currSemPicker.appendChild(newOption);
-    }
-}
-for(let i=intakeSemRange[0];i<=intakeSemRange[1];i++) {
-    for(let j=0;j<3;j++) {
-        let newOption=document.createElement("option");
-        newOption.value=i+"/"+months[j];
-        newOption.innerHTML=i+"/"+months[j];
-        currSemPicker.appendChild(newOption);
-    }
-}
+let currSemPickerYear=document.getElementById("currSemPickerYear");
+let currSemPickerMonth=document.getElementById("currSemPickerMonth");
+let intakeSemPickerYear=document.getElementById("intaSemPickerYear");
+let intakeSemPickerMonth=document.getElementById("intaSemPickerMonth");
+
+const currentDate = new Date();
+
+// Get the month (zero-based)
+const monthIndex = currentDate.getMonth();
+if(monthIndex>=8) currSemPickerMonth.value="09";
+else if(monthIndex>=3) currSemPickerMonth.value="04";
+else if(monthIndex>=1) currSemPickerMonth.value="02";
+else currSemPickerMonth.value="09";
+
+currSemPickerYear.value=currentDate.getYear();
+
 class Subject {
     static allSubjects=[];
     constructor(jsonData) {
