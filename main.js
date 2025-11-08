@@ -2,64 +2,32 @@ let currSemPickerYear=document.getElementById("currSemPickerYear");
 let currSemPickerMonth=document.getElementById("currSemPickerMonth");
 let intakeSemPickerYear=document.getElementById("intaSemPickerYear");
 let intakeSemPickerMonth=document.getElementById("intaSemPickerMonth");
-console.log("FK2");
-const currentDate = new Date();
 
-// Get the month (zero-based)
+//set month and year of current semester picker
+const currentDate = new Date();
 const monthIndex = currentDate.getMonth();
 if(monthIndex>=8) currSemPickerMonth.value="09";
 else if(monthIndex>=3) currSemPickerMonth.value="04";
 else if(monthIndex>=1) currSemPickerMonth.value="02";
 else currSemPickerMonth.value="09";
-
 currSemPickerYear.value=currentDate.getFullYear().toString();
 
-class Subject {
-    static allSubjects=[];
-    constructor(jsonData) {
-        this.data=jsonData;
-        let keys=Object.keys(this.data);
-        for(let i=0;i<keys.length;i++)
-            this[keys[i]]=this.data[keys[i]];
-        Subject.allSubjects.push(this);
-    }
-  toString() {
-    return "Course Name: "+this.name+"\n"+"Course Code: "+this.code;
-  }
+
+function createSubjectBox(subject) {
+    let mainDiv=document.createElement("div");
+    let courseName=document.createElement("h5");
+    courseName.innerHTML=subject["name"]+" ("+subject["code"]+")";
+    mainDiv.appendChild(courseName);
+    mainDiv.className="subjectButton";
+    mainDiv.onclick=function() {openPopup(subject);}
+    return mainDiv;
+}
+function doOtherStuff() {
+    let a=createSubjectBox(Subject.allSubjects[0]);
+    document.body.appendChild(a);
+    console.log("FUCKING HELL!");
 }
 
-async function loadLocalJson() {
-  try {
-    const response = await fetch('matcourses.json'); // Path relative to your HTML file
-    const data = await response.json();
-    console.log(data);
-    for(let i=0;i<data.length;i++) new Subject(data[i]);
-    doOtherStuff();
-  } catch (error) {
-    console.error('Error fetching local JSON:', error);
-  }
-}
-
-loadLocalJson();
-
-
-const courseInput=document.getElementById("courseInput");
-const courseOutput=document.getElementById("courseOutput");
-courseInput.oninput=function(event) {
-  let courseName=courseInput.value;
-  if(courseName.length<1) return false;
-  let matches=[];
-  for(let i=0;i<Subject.allSubjects.length;i++) {
-    let subj=Subject.allSubjects[i];
-    if(!subj["name"].toLowerCase().includes(courseName.toLowerCase())) continue;
-    matches.push(subj);
-  }
-  //matches.sort(function(a,b) {return a["name"].indexOf(courseName)-b["name"].indexOf(courseName)});
-  courseOutput.innerHTML="";
-  for(let i=0;i<matches.length;i++) {
-    courseOutput.innerHTML+=matches[i].toString().replaceAll("\n","<br>")+"<br><br>";
-  }
-}
 
 
 
@@ -88,17 +56,4 @@ const popupCourseName=document.getElementById("popup_courseName")
 function updatePopup(subject) {
     popupCourseName.innerHTML=subject["name"]+" ("+subject["code"]+")";
 }
-function createSubjectBox(subject) {
-    let mainDiv=document.createElement("div");
-    let courseName=document.createElement("h5");
-    courseName.innerHTML=subject["name"]+" ("+subject["code"]+")";
-    mainDiv.appendChild(courseName);
-    mainDiv.className="subjectButton";
-    mainDiv.onclick=function() {openPopup(subject);}
-    return mainDiv;
-}
-function doOtherStuff() {
-    let a=createSubjectBox(Subject.allSubjects[0]);
-    document.body.appendChild(a);
-    console.log("FUCKING HELL!");
-}
+
