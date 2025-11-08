@@ -7,7 +7,7 @@
 	"prerequisites":[],
 	"year":1,
 	"semester":1,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -19,7 +19,7 @@
 	"prerequisites":[],
 	"year":1,
 	"semester":1,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -31,7 +31,7 @@
 	"prerequisites":[],
 	"year":1,
 	"semester":1,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -43,7 +43,7 @@
 	"prerequisites":[],
 	"year":1,
 	"semester":1,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -55,7 +55,7 @@
 	"prerequisites":[0],
 	"year":1,
 	"semester":2,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -67,7 +67,7 @@
 	"prerequisites":[],
 	"year":1,
 	"semester":2,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -79,7 +79,7 @@
 	"prerequisites":[3],
 	"year":1,
 	"semester":2,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -91,7 +91,7 @@
 	"prerequisites":[],
 	"year":1,
 	"semester":2,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Statistics"
 	},
@@ -103,7 +103,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":1,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -115,7 +115,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":1,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -127,7 +127,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":1,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Statistics"
 	},
@@ -139,7 +139,7 @@
 	"prerequisites":[8],
 	"year":2,
 	"semester":2,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -151,7 +151,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":2,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -163,7 +163,7 @@
 	"prerequisites":[],
 	"year":0,
 	"semester":0,
-	"terms":"2",
+	"terms":"1",
 	"credit":3,
 	"field":"Finance"
 	},
@@ -175,7 +175,7 @@
 	"prerequisites":[],
 	"year":0,
 	"semester":0,
-	"terms":"2",
+	"terms":"1",
 	"credit":3,
 	"field":"Pure Math"
 	},
@@ -199,7 +199,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":1,
-	"terms":"1",
+	"terms":"2",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -211,7 +211,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":1,
-	"terms":"1",
+	"terms":"2",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -223,7 +223,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":1,
-	"terms":"1",
+	"terms":"2",
 	"credit":4,
 	"field":"Finance"
 	},
@@ -247,7 +247,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":2,
-	"terms":"1",
+	"terms":"2",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -259,7 +259,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":2,
-	"terms":"1",
+	"terms":"2",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -271,7 +271,7 @@
 	"prerequisites":[9],
 	"year":2,
 	"semester":2,
-	"terms":"1",
+	"terms":"2",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -283,7 +283,7 @@
 	"prerequisites":[9],
 	"year":2,
 	"semester":2,
-	"terms":"1",
+	"terms":"2",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -295,7 +295,7 @@
 	"prerequisites":[9],
 	"year":2,
 	"semester":2,
-	"terms":"1",
+	"terms":"2",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -319,7 +319,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":2,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Statistics"
 	},
@@ -331,7 +331,7 @@
 	"prerequisites":[],
 	"year":2,
 	"semester":2,
-	"terms":"13",
+	"terms":"23",
 	"credit":4,
 	"field":"Statistics"
 	},
@@ -367,7 +367,7 @@
 	"prerequisites":[],
 	"year":3,
 	"semester":1,
-	"terms":"1",
+	"terms":"2",
 	"credit":4,
 	"field":"Pure Math"
 	},
@@ -427,7 +427,7 @@
 	"prerequisites":[],
 	"year":3,
 	"semester":1,
-	"terms":"1",
+	"terms":"2",
 	"credit":3,
 	"field":"Statistics"
 	},
@@ -439,11 +439,12 @@
 	"prerequisites":[],
 	"year":3,
 	"semester":1,
-	"terms":"1",
+	"terms":"2",
 	"credit":4,
 	"field":"Finance"
 	}
 ]
+
 
 
 
