@@ -9,7 +9,8 @@
 	"semester":1,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Algebra and Analytic Geometry",
@@ -21,7 +22,8 @@
 	"semester":1,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Discrete Mathematics",
@@ -33,7 +35,8 @@
 	"semester":1,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Linear Algebra I",
@@ -45,7 +48,8 @@
 	"semester":1,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Calculus II",
@@ -57,7 +61,8 @@
 	"semester":2,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Ordinary Differential Equations",
@@ -69,7 +74,8 @@
 	"semester":2,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Linear Algebra II",
@@ -81,7 +87,8 @@
 	"semester":2,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Probability Theory",
@@ -93,7 +100,8 @@
 	"semester":2,
 	"terms":"23",
 	"credit":4,
-	"field":"Statistics"
+	"field":"Statistics",
+	"optional":"comp"
 	},
 	{
 	"name":"Mathematical Analysis I",
@@ -105,7 +113,8 @@
 	"semester":1,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Abstract Algebra I",
@@ -117,7 +126,8 @@
 	"semester":1,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Statistics",
@@ -129,7 +139,8 @@
 	"semester":1,
 	"terms":"23",
 	"credit":4,
-	"field":"Statistics"
+	"field":"Statistics",
+	"optional":"comp"
 	},
 	{
 	"name":"Mathematical Analysis II",
@@ -141,7 +152,8 @@
 	"semester":2,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Complex Analysis I",
@@ -153,7 +165,8 @@
 	"semester":2,
 	"terms":"23",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"comp"
 	},
 	{
 	"name":"Mathematical Theory of Games",
@@ -165,7 +178,8 @@
 	"semester":0,
 	"terms":"1",
 	"credit":3,
-	"field":"Finance"
+	"field":"Finance",
+	"optional":"gene"
 	},
 	{
 	"name":"Elementary Number Theory",
@@ -177,7 +191,8 @@
 	"semester":0,
 	"terms":"1",
 	"credit":3,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"gene"
 	},
 	{
 	"name":"Partial Differential Equations",
@@ -189,7 +204,8 @@
 	"semester":1,
 	"terms":"3",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Dynamical Systems",
@@ -201,7 +217,8 @@
 	"semester":1,
 	"terms":"2",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Combinatorics",
@@ -213,7 +230,8 @@
 	"semester":1,
 	"terms":"2",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Financial Mathematics I",
@@ -225,7 +243,8 @@
 	"semester":1,
 	"terms":"2",
 	"credit":4,
-	"field":"Finance"
+	"field":"Finance",
+	"optional":"maje"
 	},
 	{
 	"name":"Advanced Linear Algebra",
@@ -237,7 +256,8 @@
 	"semester":1,
 	"terms":"3",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Numerical Analysis",
@@ -249,7 +269,8 @@
 	"semester":2,
 	"terms":"2",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"General Topology",
@@ -261,7 +282,8 @@
 	"semester":2,
 	"terms":"2",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Classical Algebraic Geometry",
@@ -273,7 +295,8 @@
 	"semester":2,
 	"terms":"2",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Abstract Algebra II",
@@ -285,7 +308,8 @@
 	"semester":2,
 	"terms":"2",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Algebraic Number Theory",
@@ -297,7 +321,8 @@
 	"semester":2,
 	"terms":"2",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Bayesian Statistics",
@@ -309,7 +334,8 @@
 	"semester":2,
 	"terms":"3",
 	"credit":3,
-	"field":"Statistics"
+	"field":"Statistics",
+	"optional":"maje"
 	},
 	{
 	"name":"Regression Analysis",
@@ -321,7 +347,8 @@
 	"semester":2,
 	"terms":"23",
 	"credit":4,
-	"field":"Statistics"
+	"field":"Statistics",
+	"optional":"maje"
 	},
 	{
 	"name":"Time Series",
@@ -333,7 +360,8 @@
 	"semester":2,
 	"terms":"23",
 	"credit":4,
-	"field":"Statistics"
+	"field":"Statistics",
+	"optional":"maje"
 	},
 	{
 	"name":"Stochastic Processes",
@@ -345,7 +373,8 @@
 	"semester":2,
 	"terms":"3",
 	"credit":4,
-	"field":"Statistics"
+	"field":"Statistics",
+	"optional":"maje"
 	},
 	{
 	"name":"Financial Mathematics II",
@@ -357,7 +386,8 @@
 	"semester":2,
 	"terms":"3",
 	"credit":4,
-	"field":"Finance"
+	"field":"Finance",
+	"optional":"maje"
 	},
 	{
 	"name":"Differential Geometry of Curves and Surfaces",
@@ -369,7 +399,8 @@
 	"semester":1,
 	"terms":"2",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Differential Manifolds",
@@ -381,7 +412,8 @@
 	"semester":1,
 	"terms":"3",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Real Analysis I",
@@ -393,7 +425,8 @@
 	"semester":1,
 	"terms":"3",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Analytic Number Theory",
@@ -405,7 +438,8 @@
 	"semester":1,
 	"terms":"3",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Algebraic Topology",
@@ -417,7 +451,8 @@
 	"semester":1,
 	"terms":"3",
 	"credit":4,
-	"field":"Pure Math"
+	"field":"Pure Math",
+	"optional":"maje"
 	},
 	{
 	"name":"Multivariate Statistical Analysis",
@@ -429,7 +464,8 @@
 	"semester":1,
 	"terms":"2",
 	"credit":3,
-	"field":"Statistics"
+	"field":"Statistics",
+	"optional":"maje"
 	},
 	{
 	"name":"Financial Mathematics II",
@@ -441,15 +477,7 @@
 	"semester":1,
 	"terms":"2",
 	"credit":4,
-	"field":"Finance"
+	"field":"Finance",
+	"optional":"maje"
 	}
 ]
-
-
-
-
-
-
-
-
-
