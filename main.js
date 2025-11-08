@@ -27,8 +27,8 @@ function doOtherStuff() {
     //document.body.appendChild(a);
     
 
-    for(let i=0;i<Subjects.allSubjects.length;i++) {
-        let subject=Subjects.allSubjects[i];
+    for(let i=0;i<Subject.allSubjects.length;i++) {
+        let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
             let ulist=document.getElementById("y"+subject.year+"s"+subject.semester+"Recomm");
             let p=document.createElement("p");
