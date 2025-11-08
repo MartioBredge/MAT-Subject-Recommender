@@ -12,6 +12,7 @@ class Subject {
     return "Course Name: "+this.name+"\n"+"Course Code: "+this.code;
   }
 }
+function doOtherStuff() {}
 
 async function loadLocalJson() {
   try {
