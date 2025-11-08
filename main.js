@@ -23,9 +23,22 @@ function createSubjectBox(subject) {
     return mainDiv;
 }
 function doOtherStuff() {
-    let a=createSubjectBox(Subject.allSubjects[0]);
-    document.body.appendChild(a);
-    console.log("FUCKING HELL!");
+    //let a=createSubjectBox(Subject.allSubjects[0]);
+    //document.body.appendChild(a);
+    
+
+    for(let i=0;i<Subjects.allSubjects.length;i++) {
+        let subject=Subjects.allSubjects[i];
+        if(subject.optional==="comp") {
+            let ulist=document.getElementById("y"+subject.year+"s"+subject.semester+"Recomm");
+            let p=document.createElement("p");
+            p.innerHTML=subject.name+" ("+subject.code+")";
+            p.onclick=function() {
+                openPopup(subject);
+            }
+            ulist.appendChild(p);
+        }
+    }
 }
 
 
