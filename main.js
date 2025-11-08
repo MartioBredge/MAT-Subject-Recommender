@@ -23,12 +23,17 @@ function createSubjectBox(subject) {
     return mainDiv;
 }
 function updateRecommendations() {
+    for(let i=1;i<=3;i++) {
+        for(let j=1;j<=3;j++) {
+            let ulist=document.getElementById("y"+i+"s"+j+"Recomm");
+            ulist.innerHTML="";
+        }
+    }
     let offset=intakeSemPickerMonth.selectedIndex;
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
-            let ulist=document.getElementById("y"+subject.year+"s"+subject.semester+"Recomm");
-            ulist.innerHTML="";
+            let ulist=document.getElementById("y"+subject.year+"s"+((subject.semester+offset)%3+1)+"Recomm");
             let p=document.createElement("li");
             p.innerHTML=subject.name+" ("+subject.code+")";
             p.onclick=function() {
