@@ -50,7 +50,7 @@ function doOtherStuff() {
 }
 intakeSemPickerMonth.onchange=function(event) {
     updateRecommendations();
-    console.log("AFK");
+    console.log("AFD");
 }
 
 
