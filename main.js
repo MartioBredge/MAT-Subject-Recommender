@@ -31,7 +31,7 @@ function doOtherStuff() {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
             let ulist=document.getElementById("y"+subject.year+"s"+subject.semester+"Recomm");
-            let p=document.createElement("p");
+            let p=document.createElement("li");
             p.innerHTML=subject.name+" ("+subject.code+")";
             p.onclick=function() {
                 openPopup(subject);
