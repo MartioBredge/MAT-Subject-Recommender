@@ -28,6 +28,7 @@ function updateRecommendations() {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
             let ulist=document.getElementById("y"+subject.year+"s"+subject.semester+"Recomm");
+            ulist.innerHTML="";
             let p=document.createElement("li");
             p.innerHTML=subject.name+" ("+subject.code+")";
             p.onclick=function() {
