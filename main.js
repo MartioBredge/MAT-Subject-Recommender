@@ -52,6 +52,7 @@ intakeSemPickerMonth.onchange=function(event) {
     updateRecommendations();
     console.log("AFD");
 }
+console.log("ASDF");
 
 
 
