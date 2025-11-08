@@ -2,7 +2,7 @@ let currSemPickerYear=document.getElementById("currSemPickerYear");
 let currSemPickerMonth=document.getElementById("currSemPickerMonth");
 let intakeSemPickerYear=document.getElementById("intaSemPickerYear");
 let intakeSemPickerMonth=document.getElementById("intaSemPickerMonth");
-console.log("FK");
+console.log("FK2");
 const currentDate = new Date();
 
 // Get the month (zero-based)
