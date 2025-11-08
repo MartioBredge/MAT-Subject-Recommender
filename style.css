@@ -58,4 +58,6 @@
   padding:10px;
   margin:10px;
   border:1px #000000 solid;
+  display:grid;
+  grid-template-columns:20% 80%;
 }
