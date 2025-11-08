@@ -6,44 +6,66 @@
   </head>
   <body>
 
-  <h1>RECOMMEND TEST</h1>
+    <h1>RECOMMEND TEST</h1>
+
+    
   <div id="infoInputDiv">
-  <div class="inputDiv">
-  <p>Current Semester:</p>
-    
-  
-  <!--<input type="text" id="courseInput">-->
-  </div><div class="inputDiv">
-  <p>Intake Semester:</p>
-    
+    <div class="inputDiv">
+      <p>Current Semester:</p>
+      <div>
+        <div style="vertical-align: middle;display:inline-block;">
+          <select name="currSemYear" id="currSemPickerYear">
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+          </select>
+        </div>
+        <p style="vertical-align: middle;display:inline-block;">/</p>
+        <div style="vertical-align: middle;display:inline-block;">
+          <select name="currSemMonth" id="currSemPickerMonth">
+            <option value="02">02</option>
+            <option value="04">04</option>
+            <option value="09">09</option>
+          </select>
+      </div>
     <div>
-      <div style="vertical-align: middle;display:inline-block;">
-      <select name="currSem" id="currSemPicker2">
-  <option value="2020">2020</option>
-  <option value="2021">2021</option>
-  <option value="2022">2022</option>
-</select></div>
-      <p style="vertical-align: middle;display:inline-block;">/</p>
-      <div style="vertical-align: middle;display:inline-block;">
-<select name="currSem3" id="currSemPicker3">
-  <option value="02">02</option>
-  <option value="04">04</option>
-  <option value="09">09</option>
-  <option value="2020/02">2020/02</option>
-  <option value="2020/04">2020/04</option>
-  <option value="2020/04">2020/04</option>
-</select>
+    
+    <div class="inputDiv">
+      <p>Intake Semester:</p>
+      <div>
+        <div style="vertical-align: middle;display:inline-block;">
+          <select name="intaSemYear" id="intaSemPickerYear">
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+          </select>
+        </div>
+        <p style="vertical-align: middle;display:inline-block;">/</p>
+        <div style="vertical-align: middle;display:inline-block;">
+          <select name="intaSemMonth" id="intaSemPickerMonth">
+            <option value="02">02</option>
+            <option value="04">04</option>
+            <option value="09">09</option>
+          </select>
+        </div>
       </div>
     </div>
-    
-  <!--<input type="text" id="courseInput2">-->
-  </div><div class="inputDiv">
-  <p>Direction:</p>
-  <input type="text" id="courseInput3">
+    <div class="inputDiv">
+      <p>Direction:</p>
+      <select name="direction" id="dirPicker">
+        <option value="Pure Maths">Pure Maths</option>
+        <option value="Finance">Finance</option>
+        <option value="Statistics">Statistics</option>
+      </select>
+    </div>
   </div>
-  </div>
-  </body>
-  
+ 
+
+  <!-- popup -->
   <div id="myPopup" class="popup-overlay">
     <div class="popup-content">
       <h2 id="popup_courseName">Popup Title</h2>
@@ -75,5 +97,7 @@
     <div class="semRecommLabel">Year 3 Semester 3</div>
     <div id="y3s3Recomm" class="semRecommDiv"></div>
   </div>
+  
+  </body>
   <script src="main.js"></script>
 </html>
