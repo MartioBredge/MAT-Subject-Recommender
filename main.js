@@ -23,6 +23,7 @@ function createSubjectBox(subject) {
     return mainDiv;
 }
 function updateRecommendations() {
+    //feb: X 1 2 apr: 2 X 1 sep: 1 2 X
     let months=["February","April","September"];
     let offset=(intakeSemPickerMonth.selectedIndex+2)%3;
     
@@ -42,7 +43,7 @@ function updateRecommendations() {
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
-            let index=((subject.semester+offset)%3+1);
+            let index=((subject.semester-offset)%3+1);
             if(offset==
             let ulist=document.getElementById("y"+subject.year+"s"+index+"Recomm");
             
