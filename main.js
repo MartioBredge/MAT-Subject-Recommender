@@ -23,13 +23,19 @@ function createSubjectBox(subject) {
     return mainDiv;
 }
 function updateRecommendations() {
+    let months=["February","April","September"];
+    let offset=(intakeSemPickerMonth.selectedIndex+2)%3;
+    
     for(let i=1;i<=3;i++) {
         for(let j=1;j<=3;j++) {
             let ulist=document.getElementById("y"+i+"s"+j+"Recomm");
             ulist.innerHTML="";
+            let label=document.getElementById("y"+i+"s"+j+"RecommLabel");
+            label.innerHTML="Year "+i+" Semester "+j+"<br>"+months[offset];
         }
     }
-    let offset=intakeSemPickerMonth.selectedIndex+2;
+    
+    
     console.log("ASDFade");
     console.log("WEFd");
     console.log("dsfwe");
