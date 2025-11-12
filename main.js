@@ -29,7 +29,7 @@ function updateRecommendations() {
             ulist.innerHTML="";
         }
     }
-    let offset=intakeSemPickerMonth.selectedIndex+1;
+    let offset=intakeSemPickerMonth.selectedIndex;
     console.log("ASDFade");
     console.log("WEFd");
     console.log("dsfwe");
