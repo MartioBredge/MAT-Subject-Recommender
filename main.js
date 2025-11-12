@@ -42,7 +42,10 @@ function updateRecommendations() {
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
-            let ulist=document.getElementById("y"+subject.year+"s"+((subject.semester+offset)%3+1)+"Recomm");
+            let index=((subject.semester+offset)%3+1);
+            if(offset==
+            let ulist=document.getElementById("y"+subject.year+"s"+index+"Recomm");
+            
             let p=document.createElement("li");
             p.innerHTML=subject.name+" ("+subject.code+")";
             p.onclick=function() {
