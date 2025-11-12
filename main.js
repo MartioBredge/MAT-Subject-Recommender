@@ -29,9 +29,9 @@ function updateRecommendations() {
             ulist.innerHTML="";
         }
     }
-    let offset=intakeSemPickerMonth.selectedIndex;
+    let offset=intakeSemPickerMonth.selectedIndex+1;
     console.log("ASDFade");
-    console.log("WEF");
+    console.log("WEFd");
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
