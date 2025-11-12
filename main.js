@@ -30,6 +30,7 @@ function updateRecommendations() {
         }
     }
     let offset=intakeSemPickerMonth.selectedIndex+1;
+    console.log("ASDF");
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
