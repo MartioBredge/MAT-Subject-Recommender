@@ -44,7 +44,7 @@ function updateRecommendations() {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
             let index=((subject.semester-offset)%3+1);
-            if(offset==
+            //if(offset==
             let ulist=document.getElementById("y"+subject.year+"s"+index+"Recomm");
             
             let p=document.createElement("li");
