@@ -39,11 +39,17 @@ function updateRecommendations() {
     
     console.log("ASDFade");
     console.log("WEFdasdfwe");
-    
+    // 0, 1, 2
+    // (1-1+0)%3+1 -> 1
+    // (1-1+1)%3+1 -> 2
+    // (1-1+2)%3+1 -> 3
+    // (2-1+0)%3+1 -> 2
+    // (2-1+1)%3+1 -> 3
+    // (2-1+2)%3+1 -> 1
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
-            let index=((subject.semester-offset)%3+1);
+            let index=((subject.semester-1+offset)%3+1);
             //if(offset==
             let ulist=document.getElementById("y"+subject.year+"s"+index+"Recomm");
             
