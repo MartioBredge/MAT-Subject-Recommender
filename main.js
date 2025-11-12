@@ -11,7 +11,7 @@ else if(monthIndex>=3) currSemPickerMonth.value="04";
 else if(monthIndex>=1) currSemPickerMonth.value="02";
 else currSemPickerMonth.value="09";
 currSemPickerYear.value=currentDate.getFullYear().toString();
-console.log("ASDFasdfwe");
+
 
 function createSubjectBox(subject) {
     let mainDiv=document.createElement("div");
@@ -37,8 +37,8 @@ function updateRecommendations() {
     
     
     console.log("ASDFade");
-    console.log("WEFd");
-    console.log("dsfwe");
+    console.log("WEFdasdfwe");
+    
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
