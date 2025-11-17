@@ -32,9 +32,11 @@ function updateRecommendations() {
             let ulist=document.getElementById("y"+i+"s"+j+"Recomm");
             ulist.innerHTML="";
             let label=document.getElementById("y"+i+"s"+j+"RecommLabel");
-            let currMonth=((i-1)*3+(j-1)+offset)%3;
-            console.log(currMonth)
-            //label.innerHTML="Year "+i+" Semester "+j+"<br>"+months[(offset+j+3)%3]+" "+(parseInt(intakeSemPickerYear.value)+Math.floor((offset+i*3+j)/3));
+            let monthYear=((i-1)*3+(j-1)+offset);
+            let currMonth=months[monthYear%3];
+            let currYear=Math.floor(monthYear/3);
+            console.log(currYear+" "+currMonth);
+            label.innerHTML="Year "+i+" Semester "+j+"<br>"+months[(offset+j+3)%3]+" "+(parseInt(intakeSemPickerYear.value)+Math.floor((offset+i*3+j)/3));
         }
     }
     
