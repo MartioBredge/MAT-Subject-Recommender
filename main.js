@@ -25,7 +25,7 @@ function createSubjectBox(subject) {
 function updateRecommendations() {
     //feb: X 1 2 apr: 2 X 1 sep: 1 2 X
     let months=["February","April","September"];
-    let offset=(intakeSemPickerMonth.selectedIndex-1);
+    let offset=intakeSemPickerMonth.selectedIndex;
     
     for(let i=1;i<=3;i++) {
         for(let j=1;j<=3;j++) {
