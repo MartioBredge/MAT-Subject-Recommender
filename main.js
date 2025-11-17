@@ -52,6 +52,8 @@ function updateRecommendations() {
             //console.log("ASDF");
             //let monthYear=((subject.year-1)*3+(subject.semester-1)+offset);
             //let currMonth=months[monthYear%3];
+            console.log(subject);
+            console.log(semIndex);
             let ulist=document.getElementById("y"+subject.year+"s"+semIndex+"Recomm");
             let p=document.createElement("li");
             p.innerHTML=subject.name+" ("+subject.code+")";
