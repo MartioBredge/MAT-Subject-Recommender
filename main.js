@@ -37,7 +37,7 @@ function updateRecommendations() {
     }
     
     
-    console.log("ASDFade");
+    console.log("acwece");
     console.log("fakc you");
     // 0, 1, 2
     // (1-1+0)%3+1 -> 1
@@ -46,7 +46,7 @@ function updateRecommendations() {
     // (2-1+0)%3+1 -> 2
     // (2-1+1)%3+1 -> 3
     // (2-1+2)%3+1 -> 1
-    for(let i=0;i<Subject.allSubjects.length;i++) {
+    /*for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
             let index=((subject.semester-1+offset)%3+1);
@@ -60,7 +60,7 @@ function updateRecommendations() {
             }
             ulist.appendChild(p);
         }
-    }
+    }*/
 }
 function doOtherStuff() {
     //let a=createSubjectBox(Subject.allSubjects[0]);
