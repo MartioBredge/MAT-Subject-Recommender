@@ -47,7 +47,7 @@ function updateRecommendations() {
     
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
-        if(subject.optional==="comp") {
+        //if(subject.optional==="comp") {
             let semIndex=sems.indexOf(subject.semester)+1;
             //console.log("ASDF");
             //let monthYear=((subject.year-1)*3+(subject.semester-1)+offset);
@@ -56,7 +56,7 @@ function updateRecommendations() {
             let p=document.createElement("li");
             p.innerHTML=subject.name+" ("+subject.code+")";
             ulist.appendChild(p);
-        }
+        //}
     }
     // 0, 1, 2
     // (1-1+0)%3+1 -> 1
