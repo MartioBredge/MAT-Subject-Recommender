@@ -40,7 +40,15 @@ function updateRecommendations() {
         }
     }
     
-
+    for(let i=0;i<Subject.allSubjects.length;i++) {
+        let subject=Subject.allSubjects[i];
+        if(subject.optional==="comp") {
+            let ulist=document.getElementById("y"+subject.year+"s"+parseInt(subject.terms.charAt(0))+"Recomm");
+            let p=document.createElement("li");
+            p.innerHTML=subject.name+" ("+subject.code+")";
+            ulist.appendChild(p);
+        }
+    }
     // 0, 1, 2
     // (1-1+0)%3+1 -> 1
     // (1-1+1)%3+1 -> 2
