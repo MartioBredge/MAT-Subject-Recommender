@@ -48,7 +48,7 @@ function updateRecommendations() {
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
-            let semIndex=sems.indexOf(subject.semester);
+            let semIndex=sems.indexOf(subject.semester)+1;
             //console.log("ASDF");
             //let monthYear=((subject.year-1)*3+(subject.semester-1)+offset);
             //let currMonth=months[monthYear%3];
