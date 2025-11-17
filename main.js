@@ -48,14 +48,14 @@ function updateRecommendations() {
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
-            console.log(sems.indexOf(subject.semester));
-            console.log("ASDF");
+            let semIndex=sems.indexOf(subject.semester);
+            //console.log("ASDF");
             //let monthYear=((subject.year-1)*3+(subject.semester-1)+offset);
             //let currMonth=months[monthYear%3];
-            //let ulist=document.getElementById("y"+subject.year+"s"+parseInt(subject.terms.charAt(0))+"Recomm");
-            //let p=document.createElement("li");
-            //p.innerHTML=subject.name+" ("+subject.code+")";
-            //ulist.appendChild(p);
+            let ulist=document.getElementById("y"+subject.year+"s"+semIndex+"Recomm");
+            let p=document.createElement("li");
+            p.innerHTML=subject.name+" ("+subject.code+")";
+            ulist.appendChild(p);
         }
     }
     // 0, 1, 2
