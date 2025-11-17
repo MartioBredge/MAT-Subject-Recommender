@@ -39,7 +39,7 @@ function updateRecommendations() {
     }
     
     
-    console.log("acwece");
+    console.log("acsdewece");
     console.log("fakc yousdc");
     // 0, 1, 2
     // (1-1+0)%3+1 -> 1
