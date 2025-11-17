@@ -34,7 +34,7 @@ function updateRecommendations() {
             let label=document.getElementById("y"+i+"s"+j+"RecommLabel");
             let monthYear=((i-1)*3+(j-1)+offset);
             let currMonth=months[monthYear%3];
-            let currYear=Math.floor(monthYear/3);
+            let currYear=Math.floor(monthYear/3)+parseInt(intakeSemPickerYear.value);
             console.log(currYear+" "+currMonth);
             label.innerHTML="Year "+i+" Semester "+j+"<br>"+currMonth+" "+currYear;
         }
