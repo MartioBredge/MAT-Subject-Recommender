@@ -39,14 +39,21 @@ function updateRecommendations() {
             label.innerHTML="Year "+i+" Semester "+j+"<br>"+currMonth+" "+currYear;
         }
     }
+    let sems=[1,2,3];
+    if(offset==0) sems=[1,2,3];
+    else if(offset==1) sems=[2,3,1];
+    else if(offset==2) sems=[2,1,3];
     
     for(let i=0;i<Subject.allSubjects.length;i++) {
         let subject=Subject.allSubjects[i];
         if(subject.optional==="comp") {
-            let ulist=document.getElementById("y"+subject.year+"s"+parseInt(subject.terms.charAt(0))+"Recomm");
-            let p=document.createElement("li");
-            p.innerHTML=subject.name+" ("+subject.code+")";
-            ulist.appendChild(p);
+            console.log(sems.indexOf(subject.semester));
+            //let monthYear=((subject.year-1)*3+(subject.semester-1)+offset);
+            //let currMonth=months[monthYear%3];
+            //let ulist=document.getElementById("y"+subject.year+"s"+parseInt(subject.terms.charAt(0))+"Recomm");
+            //let p=document.createElement("li");
+            //p.innerHTML=subject.name+" ("+subject.code+")";
+            //ulist.appendChild(p);
         }
     }
     // 0, 1, 2
