@@ -32,7 +32,7 @@ function updateRecommendations() {
             let ulist=document.getElementById("y"+i+"s"+j+"Recomm");
             ulist.innerHTML="";
             let label=document.getElementById("y"+i+"s"+j+"RecommLabel");
-            label.innerHTML="Year "+i+" Semester "+j+"<br>"+months[(offset+j)%3]+" "+(parseInt(intakeSemPickerYear.value)+Math.floor((offset+i*3+j)/3));
+            label.innerHTML="Year "+i+" Semester "+j+"<br>"+months[(offset+j+3)%3]+" "+(parseInt(intakeSemPickerYear.value)+Math.floor((offset+i*3+j)/3));
         }
     }
     
