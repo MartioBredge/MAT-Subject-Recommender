@@ -40,7 +40,7 @@ function updateRecommendations() {
         }
     }
     
-    
+    console.log("sdcwe");
     console.log("acsdewecfdfe");
     console.log("fakc yousdc");
     // 0, 1, 2
