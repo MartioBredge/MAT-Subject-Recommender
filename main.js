@@ -40,9 +40,7 @@ function updateRecommendations() {
         }
     }
     
-    console.log("sdcwe");
-    console.log("acsdewecfdfe");
-    console.log("fakc yousdc");
+
     // 0, 1, 2
     // (1-1+0)%3+1 -> 1
     // (1-1+1)%3+1 -> 2
@@ -71,11 +69,12 @@ function doOtherStuff() {
     //document.body.appendChild(a);
     updateRecommendations();
 }
+intakeSemPickerYear.onchange=function(event) {
+    updateRecommendations();
+}
 intakeSemPickerMonth.onchange=function(event) {
     updateRecommendations();
-    console.log("AFD");
 }
-console.log("ASDF");
 
 
 
