@@ -25,20 +25,22 @@ function createSubjectBox(subject) {
 function updateRecommendations() {
     //feb: X 1 2 apr: 2 X 1 sep: 1 2 X
     let months=["February","April","September"];
-    let offset=intakeSemPickerMonth.selectedIndex;
-    
+    let offset=intakeSemPickerMonth.selectedIndex; //feb 0 apr 1 sep 2
+
     for(let i=1;i<=3;i++) {
         for(let j=1;j<=3;j++) {
             let ulist=document.getElementById("y"+i+"s"+j+"Recomm");
             ulist.innerHTML="";
             let label=document.getElementById("y"+i+"s"+j+"RecommLabel");
-            label.innerHTML="Year "+i+" Semester "+j+"<br>"+months[(offset+j+3)%3]+" "+(parseInt(intakeSemPickerYear.value)+Math.floor((offset+i*3+j)/3));
+            let currMonth=((i-1)*3+(j-1)+offset)%3;
+            console.log(currMonth)
+            //label.innerHTML="Year "+i+" Semester "+j+"<br>"+months[(offset+j+3)%3]+" "+(parseInt(intakeSemPickerYear.value)+Math.floor((offset+i*3+j)/3));
         }
     }
     
     
     console.log("acwece");
-    console.log("fakc you");
+    console.log("fakc yousdc");
     // 0, 1, 2
     // (1-1+0)%3+1 -> 1
     // (1-1+1)%3+1 -> 2
