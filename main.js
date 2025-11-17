@@ -36,7 +36,7 @@ function updateRecommendations() {
             let currMonth=months[monthYear%3];
             let currYear=Math.floor(monthYear/3);
             console.log(currYear+" "+currMonth);
-            label.innerHTML="Year "+i+" Semester "+j+"<br>"+months[(offset+j+3)%3]+" "+(parseInt(intakeSemPickerYear.value)+Math.floor((offset+i*3+j)/3));
+            label.innerHTML="Year "+i+" Semester "+j+"<br>"+currMonth+" "+currYear;
         }
     }
     
