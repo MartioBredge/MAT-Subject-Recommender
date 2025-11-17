@@ -174,8 +174,8 @@
 	"school":"G",
 	"id":13,
 	"prerequisites":[],
-	"year":0,
-	"semester":0,
+	"year":1,
+	"semester":1,
 	"terms":"1",
 	"credit":3,
 	"field":"Finance",
@@ -187,8 +187,8 @@
 	"school":"G",
 	"id":14,
 	"prerequisites":[],
-	"year":0,
-	"semester":0,
+	"year":1,
+	"semester":1,
 	"terms":"1",
 	"credit":3,
 	"field":"Pure Math",
@@ -481,4 +481,5 @@
 	"optional":"maje"
 	}
 ]
+
 
