@@ -54,7 +54,7 @@ function updateRecommendations() {
             //let currMonth=months[monthYear%3];
             console.log(subject);
             console.log(semIndex);
-            console.log(months[(semIndex+offset+1)%3]);
+            console.log(months[(semIndex+offset+2)%3]);
             let ulist=document.getElementById("y"+subject.year+"s"+semIndex+"Recomm");
             let p=document.createElement("li");
             p.innerHTML=subject.name+" ("+subject.code+")";
