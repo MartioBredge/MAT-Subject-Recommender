@@ -55,14 +55,17 @@ function updateRecommendations() {
             //let currMonth=months[monthYear%3];
             console.log(subject);
             console.log(semIndex);
-            console.log(months[(semIndex+offset+2)%3]);
-            let ulist=document.getElementById("y"+subject.year+"s"+semIndex+"Recomm");
-            let p=document.createElement("li");
-            p.innerHTML=subject.name+" ("+subject.code+")";
-            p.onclick=function() {
-                openPopup(subject);
+            let calcMonth=(months[(semIndex+offset+2)%3]+1).toString();
+            if(subject.terms.includes(calcMonth)) {
+            
+                let ulist=document.getElementById("y"+subject.year+"s"+semIndex+"Recomm");
+                let p=document.createElement("li");
+                p.innerHTML=subject.name+" ("+subject.code+")";
+                p.onclick=function() {
+                    openPopup(subject);
+                }
+                ulist.appendChild(p);
             }
-            ulist.appendChild(p);
         //}
     }
     // 0, 1, 2
