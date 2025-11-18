@@ -53,9 +53,13 @@ function updateRecommendations() {
             //let currMonth=months[monthYear%3];
             console.log(subject);
             console.log(semIndex);
+            console.log((semIndex+offset)%3);
             let ulist=document.getElementById("y"+subject.year+"s"+semIndex+"Recomm");
             let p=document.createElement("li");
             p.innerHTML=subject.name+" ("+subject.code+")";
+            p.onclick=function() {
+                openPopup(subject);
+            }
             ulist.appendChild(p);
         //}
     }
