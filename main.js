@@ -56,6 +56,8 @@ function updateRecommendations() {
             console.log(subject);
             console.log(semIndex);
             let calcMonth=(months[(semIndex+offset+2)%3]+1).toString();
+            console.log(calcMonth);
+            console.log(subject.terms);
             if(subject.terms.includes(calcMonth)) {
             
                 let ulist=document.getElementById("y"+subject.year+"s"+semIndex+"Recomm");
