@@ -479,7 +479,11 @@
 	"credit":4,
 	"field":"Finance",
 	"optional":"maje"
+	},
+	{"name":"FK",
+	"year":1
 	}
 ]
+
 
 
