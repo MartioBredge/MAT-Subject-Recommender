@@ -319,7 +319,7 @@
 	"prerequisites":[9],
 	"year":2,
 	"semester":3,
-	"terms":"2",
+	"terms":"3",
 	"credit":4,
 	"field":"Pure Math",
 	"optional":"maje"
@@ -481,6 +481,7 @@
 	"optional":"maje"
 	}
 ]
+
 
 
 
