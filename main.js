@@ -12,8 +12,8 @@ else if(monthIndex>=1) currSemPickerMonth.value="02";
 else currSemPickerMonth.value="09";
 currSemPickerYear.value=currentDate.getFullYear().toString();
 
-console.log("cwesdcec@#");
-console.log("WEFsdfadE");
+console.log("wefwe@#");
+
 function createSubjectBox(subject) {
     let mainDiv=document.createElement("div");
     let courseName=document.createElement("h5");
