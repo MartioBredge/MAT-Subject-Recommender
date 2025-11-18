@@ -14,6 +14,7 @@ currSemPickerYear.value=currentDate.getFullYear().toString();
 
 console.log("wefwe@#");
 console.log("AWCWE");
+console.log("WECWE");
 
 function createSubjectBox(subject) {
     let mainDiv=document.createElement("div");
