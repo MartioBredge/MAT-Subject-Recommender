@@ -13,6 +13,7 @@ else currSemPickerMonth.value="09";
 currSemPickerYear.value=currentDate.getFullYear().toString();
 
 console.log("wefwe@#");
+console.log("AWCWE");
 
 function createSubjectBox(subject) {
     let mainDiv=document.createElement("div");
